@@ -1,0 +1,95 @@
+
+body{
+	padding: 0;
+	margin: 0;
+
+}
+a{
+	text-decoration: none;
+}
+
+.twitter-widget{
+	width:446px;
+	position: absolute;
+	top: 30%;left:32.5%;
+	background-color: #f0f0f0;
+}
+.header{
+	color: white;
+	padding:10px 12px;
+	position: relative;
+	float: left;
+	background: url(http://cameronbaney.com/codepen/twitter-widget/bg-header.jpg) no-repeat;
+}
+
+.avatar{
+	border:solid 5px #29c6f5;
+	display: inline-block;
+	float: left;
+	margin-right: 1em;
+}
+
+.avatar img{
+	vertical-align:bottom;
+}
+
+.header h2{
+	margin: 10px 0 8px;
+}
+.header h2,.header p{
+	float:left;
+	width: 75%;
+}
+.header p {
+	margin: 0;
+}
+.stats{
+	clear: left;
+
+}
+
+.stat{
+	display: inline-block;
+	width:145px;
+	color: #4c4c4c;
+	text-align: center;
+	
+}
+
+.stat strong{
+	display: block;
+	font-size: 1.5em;
+}
+
+.menu{
+	margin:0;
+	text-align: center;
+}
+.menu li {
+	display: inline-block;
+	margin: 0 2em
+}
+.menu a{
+	background: url(http://cameronbaney.com/codepen/twitter-widget/icons.png) no-repeat;
+	display:block;
+	text-indent: -2000px;
+	width: 2em;
+    height: 2em;
+		}
+
+.menu .ico-mentions {
+	background-position: -2em 0;
+	}
+.menu .ico-profile{
+	background-position: -4em 0;
+}
+.menu .ico-settings{
+	background-position: -6em 0;
+}
+
+
+.cf.stats,.cf.menu{
+	padding:10px 0;
+	border-top: solid 1px white;
+	border-bottom: solid 1px #d4d4d4;
+}
